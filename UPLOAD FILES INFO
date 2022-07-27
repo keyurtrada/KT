@@ -3,7 +3,7 @@ task 1--->open github and create repository and copy the link .
 task 2--->open git bash and then type following command
 		cd D:    **( for go to D drive)**,
 		git clone (here you paste the url of repository what you copied in task 1)
-task 3--->	tupe command for connect your github username:
+task 3--->	type command for connect your github username:
 				git config --global user.email "(your email id)"
 				***then***
 			 git config --global user.name "(Your github username)"	
