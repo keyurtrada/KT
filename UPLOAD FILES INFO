@@ -1,0 +1,37 @@
+########how to upload files in github######
+task 1--->open github and create repository and copy the link .
+task 2--->open git bash and then type following command
+		cd D:    **( for go to D drive)**,
+		git clone (here you paste the url of repository what you copied in task 1)
+task 3--->	tupe command for connect your github username:
+				git config --global user.email "(your email id)"
+				***then***
+			 git config --global user.name "(Your github username)"	
+task 4--->Then You can Find the folder in d drive of your repository-
+		open your folder of repository.
+task 5--->copy-paste the FOLDER OF YOUR PROGRAM --->in your repository folder in d drive.
+task 6--->go into git bash tab:
+		cd (YOUR PROGRAM FOLDER NAME which you are paste in your repository folder)/
+		*** THEN*****
+		git add . --> type this command for upload all files
+		OR
+		git add (FILE NAME.extension) -->type this command for upload specific one file.
+		***THEN***
+		git status  --> type this command to check all files what you are added or not||for view files in folder.
+		***THEN***
+		git commit -am "2507 01"  --> type this command to do commit and ADD to date and your task number.
+		***THEN***
+		git push origin main  ---> type this command to upload all files
+		::::IF you have showing this in your git bash dell@bca9-122 MINGW64 /d/KT/EXERCISE1 (master):: master then you have to type-->
+		git push origin master
+********HOW TO DELETE REPOSITORY**********
+1--->open repositiory in git hub 
+2--->you can see setting option behind the insights button find it and click on setting button.
+3--->scroll down to the end of page and you can see "Delete this repositiory" button.
+4--->in please type to conform you can see bold words copy it and paste into text box and enter.
+     YOUR REPOSITORY DELETED  
+		
+ 
+		
+
+		 
