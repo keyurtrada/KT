@@ -1,0 +1,13 @@
+using System;
+using System.Collections.Generic;
+
+public class Exercise15
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("ATMIYA UNIVERSITY");
+        Console.WriteLine("ATMIYA UNIVERSITY");
+        Console.WriteLine("ATMIYA UNIVERSITY");
+    }
+
+}
